@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import Nav from './components/Nav/Nav';
+import Welcome from './components/Welcome/Welcome';
+import Mainsection from './components/Mainpage/Mainsection';
 
 import './App.css';
 
@@ -6,155 +9,10 @@ class App extends Component {
   render() {
     return (
       <div>
-
-        <header className="header_area animated">
-          <div className="container-fluid">
-            <div className="row align-items-center">
-              {/* Menu Area Start */}
-              <div className="col-12 col-lg-10">
-                <div className="menu_area">
-                  <nav className="navbar navbar-expand-lg navbar-light">
-                    {/* Logo */}
-                    <a className="navbar-brand" href="#">Ca.</a>
-                    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#ca-navbar" aria-controls="ca-navbar" aria-expanded="false" aria-label="Toggle navigation"><span className="navbar-toggler-icon" /></button>
-                    {/* Menu Area */}
-                    <div className="collapse navbar-collapse" id="ca-navbar">
-                      <ul className="navbar-nav ml-auto" id="nav">
-                        <li className="nav-item active"><a className="nav-link" href="#home">Home</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#features">Features</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#screenshot">Screenshot</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#pricing">Pricing</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#testimonials">Testimonials</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#team">Team</a></li>
-                        <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
-                      </ul>
-                      <div className="sing-up-button d-lg-none">
-                        <a href="#">Sign Up Free</a>
-                      </div>
-                    </div>
-                  </nav>
-                </div>
-              </div>
-              {/* Signup btn */}
-              <div className="col-12 col-lg-2">
-                <div className="sing-up-button d-none d-lg-block">
-                  <a href="#">Sign Up Free</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </header>
-        {/* ***** Header Area End ***** */}
-        {/* ***** Wellcome Area Start ***** */}
-        <section className="wellcome_area clearfix" id="home">
-          <div className="container h-100">
-            <div className="row h-100 align-items-center">
-              <div className="col-12 col-md">
-                <div className="wellcome-heading">
-                  <h2>Colorlib app</h2>
-                  <h3>C</h3>
-                  <p>Everything You Need. To Start Selling Online Beautifully</p>
-                </div>
-                <div className="get-start-area">
-                  {/* Form Start */}
-                  <form action="#" method="post" className="form-inline">
-                    <input type="email" className="form-control email" placeholder="name@company.com" />
-                    <input type="submit" className="submit" defaultValue="Get Started" />
-                  </form>
-                  {/* Form End */}
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Welcome thumb */}
-          <div className="welcome-thumb wow fadeInDown" data-wow-delay="0.5s">
-            <img src="img/bg-img/welcome-img.png" alt />
-          </div>
-        </section>
-        {/* ***** Wellcome Area End ***** */}
-        {/* ***** Special Area Start ***** */}
-        <section className="special-area bg-white section_padding_100" id="about">
-          <div className="container">
-            <div className="row">
-              <div className="col-12">
-                {/* Section Heading Area */}
-                <div className="section-heading text-center">
-                  <h2>Why Is It Special</h2>
-                  <div className="line-shape" />
-                </div>
-              </div>
-            </div>
-            <div className="row">
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInUp" data-wow-delay="0.2s">
-                  <div className="single-icon">
-                    <i className="ti-mobile" aria-hidden="true" />
-                  </div>
-                  <h4>Easy to use</h4>
-                  <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                </div>
-              </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInUp" data-wow-delay="0.4s">
-                  <div className="single-icon">
-                    <i className="ti-ruler-pencil" aria-hidden="true" />
-                  </div>
-                  <h4>Powerful Design</h4>
-                  <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                </div>
-              </div>
-              {/* Single Special Area */}
-              <div className="col-12 col-md-4">
-                <div className="single-special text-center wow fadeInUp" data-wow-delay="0.6s">
-                  <div className="single-icon">
-                    <i className="ti-settings" aria-hidden="true" />
-                  </div>
-                  <h4>Customizability</h4>
-                  <p>We build pretty complex tools and this allows us to take designs and turn them into functional quickly and easily</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Special Description Area */}
-          <div className="special_description_area mt-150">
-            <div className="container">
-              <div className="row">
-                <div className="col-lg-6">
-                  <div className="special_description_img">
-                    <img src="img/bg-img/special.png" alt />
-                  </div>
-                </div>
-                <div className="col-lg-6 col-xl-5 ml-xl-auto">
-                  <div className="special_description_content">
-                    <h2>Our Best Propositions for You!</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
-                    <div className="app-download-area">
-                      <div className="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
-                        {/* Google Store Btn */}
-                        <a href="#">
-                          <i className="fa fa-android" />
-                          <p className="mb-0"><span>available on</span> Google Store</p>
-                        </a>
-                      </div>
-                      <div className="app-download-btn wow fadeInDown" data-wow-delay="0.4s">
-                        {/* Apple Store Btn */}
-                        <a href="#">
-                          <i className="fa fa-apple" />
-                          <p className="mb-0"><span>available on</span> Apple Store</p>
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        {/* ***** Special Area End ***** */}
-        {/* ***** Awesome Features Start ***** */}
+      <Nav />
+      <Welcome/>
+      <Mainsection />
+      
         <section className="awesome-feature-area bg-white section_padding_0_50 clearfix" id="features">
           <div className="container">
             <div className="row">
