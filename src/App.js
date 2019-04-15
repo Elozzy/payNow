@@ -6,6 +6,7 @@ import Features from './components/Features/Features';
 import Contact from './components/Contact/Contact';
 import Team from './components/Team/Team';
 import Footer from './components/Footer/Footer';
+// import { link } from "react-router"; check on later
 import './App.css';
 
 class App extends Component {

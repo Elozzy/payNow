@@ -22,13 +22,13 @@ export default class Footer extends Component {
                 <li><a href="#">About</a></li>
                 <li><a href="#">Terms &amp; Conditions</a></li>
                 <li><a href="#">Privacy Policy</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#contact">Contact</a></li>
               </ul>
             </nav>
           </div>
           {/* Foooter Text*/}
           <div className="copyright-text">
-            <p>Copyright ©2019 payNow </p>
+            <p>Copyright {(new Date().getFullYear())} </p>
           </div>
         </footer>
       </div>
