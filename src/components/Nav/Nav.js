@@ -20,9 +20,6 @@ export default class Nav extends Component {
                                 <li className="nav-item active"><a className="nav-link" href="#home">Home</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#features">Features</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#screenshot">Screenshot</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#pricing">Pricing</a></li>
-                                <li className="nav-item"><a className="nav-link" href="#testimonials">Testimonials</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#team">Team</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
                             </ul>

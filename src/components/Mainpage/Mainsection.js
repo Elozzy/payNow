@@ -59,7 +59,7 @@ export default function Mainsection() {
                 <div className="col-lg-6 col-xl-5 ml-xl-auto">
                   <div className="special_description_content">
                     <h2>Get App</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    <p>You can get our app on the following platform.</p>
                     <div className="app-download-area">
                       <div className="app-download-btn wow fadeInUp" data-wow-delay="0.2s">
                         {/* Google Store Btn */}
