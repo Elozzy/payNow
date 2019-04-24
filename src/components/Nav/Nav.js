@@ -1,13 +1,15 @@
 import React, { Component } from 'react';
+import { NavLink, BrowserRouter } from 'react-router-dom';
 
 
 export default class Nav extends Component {
     render(){
         return (
 
-            // Need to make use of routing to link within pages
             
-                   <div>
+            <BrowserRouter>
+                
+                <div>
                     <header className="header_area animated">
                 <div className="container-fluid">
                     <div className="row align-items-center">
@@ -27,9 +29,6 @@ export default class Nav extends Component {
                                 <li className="nav-item"><a className="nav-link" href="#team">Team</a></li>
                                 <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
                             </ul>
-                            <div className="sing-up-button d-lg-none">
-                                <a href="../Login/Login.html">Sign Up Free</a>
-                            </div>
                             </div>
                         </nav>
                         </div>
@@ -45,7 +44,12 @@ export default class Nav extends Component {
                 </header>
                 {/* ***** Header Area End ***** */}
             </div>
-                     
+                                         
+            </BrowserRouter>
+            
         )
     }
 }
+
+                
+        
