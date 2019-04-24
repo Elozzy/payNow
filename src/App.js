@@ -6,7 +6,7 @@ import Features from './components/Features/Features';
 import Contact from './components/Contact/Contact';
 import Team from './components/Team/Team';
 import Footer from './components/Footer/Footer';
-import { Router, Route, Link, IndexRoute, hashHistory, browserHistory } from 'react-router'
+
 import './App.css';
 
 class App extends Component {
